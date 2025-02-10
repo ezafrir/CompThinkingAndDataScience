@@ -42,3 +42,13 @@ In the final implementation of Robot, not all methods will be implemented. Not t
 Each robot must also have some code that tells it how to move about a room, which will go in a method called updatePositionAndClean.
 Ordinarily we would consider putting all the robot's methods in a single class. However, later in this problem set we'll consider robots with alternate movement strategies, to be implemented as different classes with the same interface. These classes will have a different implementation of updatePositionAndClean but are for the most part the same as the original robots. Therefore, we'd like to use inheritance to reduce the amount of duplicated code.
 Complete the updatePositionAndClean method of StandardRobot to simulate the motion of the robot after a single time-step (as described on the Simulation Overview page).
+
+**Problem 4: RunSimulation**
+
+For your reference, here are some approximate room cleaning times. These times are with a robot speed of 1.0.
+One robot takes around 150 clock ticks to completely clean a 5x5 room.
+One robot takes around 190 clock ticks to clean 75% of a 10x10 room.
+One robot takes around 310 clock ticks to clean 90% of a 10x10 room.
+One robot takes around 3322 clock ticks to completely clean a 20x20 room.
+Three robots take around 1105 clock ticks to completely clean a 20x20 room.
+
